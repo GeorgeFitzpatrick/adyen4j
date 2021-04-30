@@ -1,5 +1,5 @@
 # adyen4j
-Java library to encrypt payment information for use with Adyen's payment API. This library is essentially [Adyen's clientside encryption library for android](https://github.com/Adyen/adyen-android/tree/develop/cse) with couple of changes to get it wokring outside of android. These changes include:
+Java library to encrypt payment information for use with Adyen's payment API. This library is essentially [Adyen's clientside encryption library for android](https://github.com/Adyen/adyen-android/tree/develop/cse) with couple of changes to get it working outside of android. These changes include:
 - Adding [Bouncy Castle](https://www.bouncycastle.org/) as a security provider.
 - Replacing usage of [android.util.Base64](https://developer.android.com/reference/android/util/Base64) with [java.util.Base64](https://docs.oracle.com/javase/8/docs/api/java/util/Base64.html).
 
